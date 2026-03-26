@@ -223,6 +223,8 @@ body { background: var(--smoky-black); }
   #REUSED STYLE
 \*-----------------------------------*/
 
+.highlight { color: var(--orange-yellow-crayola); }
+
 .sidebar,
 article {
   background: var(--eerie-black-2);
