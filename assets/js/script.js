@@ -44,6 +44,11 @@ const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 // sidebar toggle functionality for mobile
 sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
 
+// Open sidebar by default on mobile
+if (window.innerWidth < 1024) {
+    sidebar.classList.add("active");
+}
+
 
 // --- Testimonials Modal Variables and Logic (existing from your original script) ---
 const testimonialsItem = document.querySelectorAll("[data-testimonials-item]");
