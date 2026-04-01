@@ -1093,7 +1093,9 @@ main {
   font-weight: var(--fw-300);
 }
 
-
+.project-card-link {
+  color: var(--orange-yellow-crayola);
+}
 
 /*-----------------------------------*\
   #CONTACT
